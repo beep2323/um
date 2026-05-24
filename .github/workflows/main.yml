@@ -21,7 +21,7 @@ jobs:
           
           cd private_code
           pip install yfinance pandas openpyxl requests googletrans==4.0.0-rc1
-          python early_scanner.py --use-data-cache
+          python scanner.py --use-data-cache
           
       - name: Send TG Notification
         env:

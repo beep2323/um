@@ -17,7 +17,7 @@ jobs:
 
       - name: Clone Private Repo
         run: |
-          git clone https://${{ secrets.MY_PRIVATE_TOKEN }}@github.com/beep2323/usmarket111.git private_code
+          git clone https://${{ secrets.MY_PRIVATE_TOKEN }}@github.com/beep2323/usmarket2.git private_code
           
           cd private_code
           pip install yfinance pandas openpyxl requests googletrans==4.0.0-rc1
